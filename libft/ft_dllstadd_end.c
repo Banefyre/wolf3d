@@ -6,7 +6,7 @@
 /*   By: msagodir <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/01/06 14:54:14 by msagodir          #+#    #+#             */
-/*   Updated: 2014/01/06 14:54:42 by msagodir         ###   ########.fr       */
+/*   Updated: 2015/02/24 16:29:18 by msagodir         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,4 +23,3 @@ void			ft_dllstadd_end(t_dllist **alst, t_dllist *new)
 	(*alst)->next = new;
 	*alst = root;
 }
-

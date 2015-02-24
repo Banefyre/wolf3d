@@ -6,7 +6,7 @@
 /*   By: msagodir <msagodir@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/01/12 18:41:56 by msagodir          #+#    #+#             */
-/*   Updated: 2014/05/20 17:00:34 by msagodir         ###   ########.fr       */
+/*   Updated: 2015/02/24 15:16:41 by msagodir         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,13 +26,13 @@ static int					loop_hook(t_env *e)
 
 static int					key_hook(int keycode, t_env *e)
 {
-	if (keycode == 65362 || keycode == 119) /* up */
+	if (keycode == 65362 || keycode == 119)
 		e->inputs.up = 1;
-	if (keycode == 65364 || keycode == 115) /* down */
+	if (keycode == 65364 || keycode == 115)
 		e->inputs.down = 1;
-	if (keycode == 65363 || keycode == 100) /* right */
+	if (keycode == 65363 || keycode == 100)
 		e->inputs.right = 1;
-	if (keycode == 65361 || keycode == 97) /* left */
+	if (keycode == 65361 || keycode == 97)
 		e->inputs.left = 1;
 	return (1);
 }
@@ -41,13 +41,13 @@ static int					key_hook_r(int keycode, t_env *e)
 {
 	if (keycode == 65307)
 		exit(0);
-	if (keycode == 65362 || keycode == 119) /* up */
+	if (keycode == 65362 || keycode == 119)
 		e->inputs.up = 0;
-	if (keycode == 65364 || keycode == 115) /* down */
+	if (keycode == 65364 || keycode == 115)
 		e->inputs.down = 0;
-	if (keycode == 65363 || keycode == 100) /* right */
+	if (keycode == 65363 || keycode == 100)
 		e->inputs.right = 0;
-	if (keycode == 65361 || keycode == 97) /* left */
+	if (keycode == 65361 || keycode == 97)
 		e->inputs.left = 0;
 	return (1);
 }

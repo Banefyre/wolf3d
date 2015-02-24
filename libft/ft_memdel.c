@@ -6,7 +6,7 @@
 /*   By: msagodir <msagodir@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2013/11/23 17:52:23 by msagodir          #+#    #+#             */
-/*   Updated: 2013/12/20 18:25:26 by msagodir         ###   ########.fr       */
+/*   Updated: 2015/02/24 15:57:35 by msagodir         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ void	ft_memdel(void **ap)
 {
 	if (*ap != NULL)
 	{
-	free ((void*)*ap);
-	*ap = NULL;
+		free ((void*)*ap);
+		*ap = NULL;
 	}
 }

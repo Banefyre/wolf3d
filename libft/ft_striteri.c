@@ -6,13 +6,13 @@
 /*   By: msagodir <msagodir@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2013/11/23 18:01:15 by msagodir          #+#    #+#             */
-/*   Updated: 2013/12/20 18:27:18 by msagodir         ###   ########.fr       */
+/*   Updated: 2015/02/24 15:56:32 by msagodir         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <string.h>
 
-void	ft_striteri(char *s, void(*f)(unsigned int, char*))
+void	ft_striteri(char *s, void (*f)(unsigned int, char*))
 {
 	int	i;
 

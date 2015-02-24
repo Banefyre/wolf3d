@@ -6,13 +6,13 @@
 /*   By: msagodir <msagodir@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2013/11/23 17:59:37 by msagodir          #+#    #+#             */
-/*   Updated: 2013/12/20 18:26:59 by msagodir         ###   ########.fr       */
+/*   Updated: 2015/02/24 15:56:38 by msagodir         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <string.h>
 
-void	ft_striter(char *s, void(*f)(char*))
+void	ft_striter(char *s, void (*f)(char*))
 {
 	int	i;
 

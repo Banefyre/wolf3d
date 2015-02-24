@@ -6,7 +6,7 @@
 /*   By: msagodir <msagodir@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2013/11/23 18:10:21 by msagodir          #+#    #+#             */
-/*   Updated: 2013/12/02 16:12:12 by msagodir         ###   ########.fr       */
+/*   Updated: 2015/02/24 15:54:35 by msagodir         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,11 +24,11 @@ char	*ft_strsub(char const *s, unsigned int start, size_t len)
 	if (str == NULL)
 		return (NULL);
 	while ((s[start] != '\0') && (i < len))
-			{
-				str[i] = s[start];
-				start++;
-				i++;
-			}
-			str[i] = '\0';
+	{
+		str[i] = s[start];
+		start++;
+		i++;
+	}
+	str[i] = '\0';
 	return (str);
 }

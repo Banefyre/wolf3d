@@ -6,7 +6,7 @@
 /*   By: msagodir <msagodir@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2013/12/02 18:01:39 by msagodir          #+#    #+#             */
-/*   Updated: 2013/12/21 15:28:17 by msagodir         ###   ########.fr       */
+/*   Updated: 2015/02/24 15:53:29 by msagodir         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -55,7 +55,7 @@ static t_read		*ft_newread(int fd)
 	return (red);
 }
 
-static int			ft_print(int n, t_read **tab, t_read **s, char** l)
+static int			ft_print(int n, t_read **tab, t_read **s, char **l)
 {
 	char			*tmpstr;
 	int				index;
@@ -63,7 +63,7 @@ static int			ft_print(int n, t_read **tab, t_read **s, char** l)
 	if (!tab[0])
 		return (-1);
 	index = (tab[0])->index;
-	if (n == -1 || !(tmpstr = (char *)malloc(sizeof (char) * (n + 1))))
+	if (n == -1 || !(tmpstr = (char *)malloc(sizeof(char) * (n + 1))))
 		return (-1);
 	*l = tmpstr;
 	while (n--)

@@ -6,7 +6,7 @@
 /*   By: msagodir <msagodir@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2013/11/22 16:16:26 by msagodir          #+#    #+#             */
-/*   Updated: 2013/12/01 16:37:20 by msagodir         ###   ########.fr       */
+/*   Updated: 2015/02/24 16:27:25 by msagodir         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,5 +15,5 @@ int	ft_isascii(int c)
 	if (c < 128)
 		return (1);
 	else
-	return (0);
+		return (0);
 }
